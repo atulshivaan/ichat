@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ichat</title>
+        
+        <script  defer ="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="js/client.js"></script>
+        <link rel="stylesheet" href="ichat.css">
+    </head>
+
+    <body>
+        <nav>
+            <img class = "logo" src="download.png" alt="">
+        </nav>
+        <div class="container">
+            <div class="message right">harry: this is rohan</div>
+            <div class="message left">rohan: hello harry im fine</div>
+        </div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
